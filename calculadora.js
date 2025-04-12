@@ -1,5 +1,5 @@
-const screen = document.querySelector('.screen'); //llamo a la pantalla
-const buttons = document.querySelectorAll('.btn, .operator'); //llamo a los elementos que coincidan, con "all" son todos, sin "all" es uno especifico)
+const screen = document.querySelector('.screen'); //selecciono la pantalla, la llamo screen
+const buttons = document.querySelectorAll('.btn, .operator'); //llamo a los elementos que coincidan con .btn y .operador, con "all" son todos, sin "all" es uno especifico)
 const clearButton = document.querySelector('input[value="C"]'); // busco el boton c y lo asigno a la constante clearButton
 
 buttons.forEach(button => {  //con etse foreach recorro todos los la lista de botones
