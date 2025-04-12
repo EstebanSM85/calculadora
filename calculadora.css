@@ -1,6 +1,8 @@
 .container{
-background-color: bisque;
+background-color: rgb(95, 87, 78);
 width: 275px;
+height: 300px;
+border-radius: 10px;
 }
 
 .screen {
@@ -8,6 +10,7 @@ width: 275px;
     border-radius: 50px;
     height: 50px;
     width: 190px;
+    margin-top: 7px;
     margin-bottom: 10px;
     margin-left: 5px;
     font-family: 'Orbitron', sans-serif;
@@ -26,6 +29,7 @@ width: 275px;
     margin-left: 5px;
     width: 60px;
     height: 40px;
+    font-size: 20px;
     margin-bottom: 5px;
 }
 .operator {
@@ -35,6 +39,7 @@ width: 275px;
     width: 60px;
     height: 40px;
     margin-left: 5px;
+    font-size: 20px;
     margin-bottom: 5px;
 }
 #C{
