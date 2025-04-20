@@ -1,5 +1,8 @@
+/*Le he dado un poco de color y forma a los botones, 
+centrado todo para que se vea asimetrico, inicialmente me inspire en la de 
+apple, la del iphone concretamente, pero la modifique para que se viera diferente.*/
 .container{
-background-color: rgb(95, 87, 78);
+background-color: rgb(102, 73, 12);
 width: 275px;
 height: 300px;
 border-radius: 10px;
