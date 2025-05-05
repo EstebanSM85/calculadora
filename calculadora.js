@@ -75,7 +75,11 @@ document.addEventListener('keydown', (event) => { //agrego la funcion de usar el
     } else if (['+', '-', '*', '/', '.'].includes(key)) { // comprobamos que se use un operador válido
         screen.value += key; 
     } else if (key === 'Enter') { // Al pulsar enter hacemos la operacion(en mi teclado me funciona en el enter normal, en el que esta en el numerico no, en el portatil en los 2.)
-        screen.value = eval(screen.value); 
+        try { // Uso el try para controlar errores
+            screen.value = calcular(screen.value); // Usa la función calcular para evaluar la operación.
+        } catch (error) { //Captura el error si operación no está bien.
+            screen.value = 'Error'; // Mostrar "Error" si la operación no es válida.
+        } 
     } else if (key === 'Backspace') { // al pusar retroceder borra el ultimo caracter
         screen.value = screen.value.slice(0, -1); 
     }
